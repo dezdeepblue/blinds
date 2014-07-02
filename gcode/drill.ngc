@@ -1,0 +1,73 @@
+( pcb2gcode 1.1.4 )
+
+( This file uses only one drill bit. Forced by 'onedrill' option )
+
+       G94       (Millimeters per minute feed rate.)
+G21       (Units == Millimeters.)
+G90       (Absolute coordinates.)
+S5000     (RPM spindle speed.)
+
+G00 Z5.00000 (Retract)
+T1
+M5      (Spindle stop.)
+M6      (Tool change.)
+(MSG, Change tool bit to drill size 0.02500 inch)
+M0      (Temporary machine stop.)
+M3      (Spindle on clockwise.)
+
+G81 R3.00000 Z-2.00000 F200.00000 X3.81000 Y2.54000
+X27.94000 Y3.04800
+X34.54400 Y2.03200
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R3.00000 Z-2.00000 F200.00000 X2.54000 Y26.67000
+X2.54000 Y24.13000
+X19.05000 Y27.94000
+X19.05000 Y25.40000
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R3.00000 Z-2.00000 F200.00000 X27.94000 Y54.61000
+X27.94000 Y52.07000
+X30.48000 Y54.61000
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R3.00000 Z-2.00000 F200.00000 X3.81000 Y59.69000
+X3.81000 Y57.15000
+X3.81000 Y54.61000
+X3.81000 Y52.07000
+X3.81000 Y49.53000
+X3.81000 Y46.99000
+X3.81000 Y44.45000
+X3.81000 Y41.91000
+X3.81000 Y39.37000
+X3.81000 Y36.83000
+X3.81000 Y34.29000
+X3.81000 Y31.75000
+X19.05000 Y59.69000
+X19.05000 Y57.15000
+X19.05000 Y54.61000
+X19.05000 Y52.07000
+X19.05000 Y49.53000
+X19.05000 Y46.99000
+X19.05000 Y44.45000
+X19.05000 Y41.91000
+X19.05000 Y39.37000
+X19.05000 Y36.83000
+X19.05000 Y34.29000
+X19.05000 Y31.75000
+X26.67000 Y22.86000
+X26.67000 Y8.89000
+X26.67000 Y6.35000
+X27.94000 Y39.37000
+X29.21000 Y22.86000
+X30.48000 Y39.37000
+X31.75000 Y22.86000
+
+G00 Z5.00000 (All done -- retract)
+
+M9      (Coolant off.)
+M2      (Program end.)
+

@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by Cvpcb (2014-06-16 BZR 4947)-product   date = Tue 01 Jul 2014 08:37:35 PM EDT
+
+BeginCmp
+TimeStamp = /53A47FCA;
+Reference = C1;
+ValeurCmp = CAPACITOR_NPOL-PTH_0.1";
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47FFC;
+Reference = C2;
+ValeurCmp = CAPACITOR_NPOL-PTH_0.1";
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A48043;
+Reference = J1;
+ValeurCmp = CON_HEADER_1X02-PTH;
+IdModule  = SparkFun:SparkFun-1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47E8F;
+Reference = J2;
+ValeurCmp = CON_HEADER_1X03-PTH;
+IdModule  = SparkFun:SparkFun-1X03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A50152;
+Reference = Q1;
+ValeurCmp = TRANSISTOR_NPNTO92;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47CEA;
+Reference = R1;
+ValeurCmp = RESISTOR1206;
+IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47ED4;
+Reference = R2;
+ValeurCmp = RESISTOR1206;
+IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A4747E;
+Reference = U1;
+ValeurCmp = ARDUINO_MINI;
+IdModule  = SparkFun:SparkFun-ARDUINO_MINI_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47F8F;
+Reference = U2;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = SMD_Packages:SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9F311;
+Reference = U3;
+ValeurCmp = BLUETOOTH-HC05;
+IdModule  = sisimoto:ITEAD_HC-05;
+EndCmp
+
+EndListe
