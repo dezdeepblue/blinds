@@ -1,0 +1,192 @@
+PCBNEW-LibModule-V1  6/18/2014 12:40:16 AM
+# encoding utf-8
+Units mm
+$INDEX
+SMD_dil_24-600
+$EndINDEX
+$MODULE SMD_dil_24-600
+Po 0 0 0 15 53A1181C 00000000 ~~
+Li SMD_dil_24-600
+Cd IC, SMD24 x 0,6"
+Kw DIL
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -10.16 1.524 1.143 0 0.28702 N V 21 N "U***"
+T1 0 10.414 1.524 1.143 0 0.28702 N V 21 N "DIL_24-600"
+$PAD
+Sh "1" R 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.97 7.62
+$EndPAD
+$PAD
+Sh "2" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.43 7.62
+$EndPAD
+$PAD
+Sh "3" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8.89 7.62
+$EndPAD
+$PAD
+Sh "4" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.35 7.62
+$EndPAD
+$PAD
+Sh "5" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.81 7.62
+$EndPAD
+$PAD
+Sh "6" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 7.62
+$EndPAD
+$PAD
+Sh "7" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 7.62
+$EndPAD
+$PAD
+Sh "8" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.81 7.62
+$EndPAD
+$PAD
+Sh "9" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.35 7.62
+$EndPAD
+$PAD
+Sh "10" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.89 7.62
+$EndPAD
+$PAD
+Sh "11" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.43 7.62
+$EndPAD
+$PAD
+Sh "12" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13.97 7.62
+$EndPAD
+$PAD
+Sh "13" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13.97 -7.62
+$EndPAD
+$PAD
+Sh "14" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.43 -7.62
+$EndPAD
+$PAD
+Sh "15" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.89 -7.62
+$EndPAD
+$PAD
+Sh "16" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.35 -7.62
+$EndPAD
+$PAD
+Sh "17" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.81 -7.62
+$EndPAD
+$PAD
+Sh "18" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -7.62
+$EndPAD
+$PAD
+Sh "19" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -7.62
+$EndPAD
+$PAD
+Sh "20" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.81 -7.62
+$EndPAD
+$PAD
+Sh "21" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.35 -7.62
+$EndPAD
+$PAD
+Sh "22" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8.89 -7.62
+$EndPAD
+$PAD
+Sh "23" O 1.50114 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.43 -7.62
+$EndPAD
+$PAD
+Sh "24" O 1.524 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.97 -7.62
+$EndPAD
+$SHAPE3D
+Na "walter/pth_circuits/dil_24-600.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SMD_dil_24-600
+$EndLIBRARY

@@ -1,0 +1,185 @@
+PCBNEW-BOARD Version 2 date 6/22/2014 9:01:09 PM
+
+# Created by Pcbnew(2013-07-07 BZR 4022)-stable
+
+$GENERAL
+encoding utf-8
+Units mm
+LayerCount 2
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 29.134999 25.324999 67.385001 50.875001
+Ndraw 5
+Ntrack 40
+Nzone 0
+BoardThickness 1.6
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A3 16535 11693
+Title ""
+Date "23 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] B.Cu signal
+Layer[15] F.Cu signal
+TrackWidth 0.254
+TrackClearence 0.254
+ZoneClearence 0.508
+Zone_45_Only 0
+TrackMinWidth 0.254
+DrawSegmWidth 0.2
+EdgeSegmWidth 0.15
+ViaSize 0.889
+ViaDrill 0.635
+ViaMinSize 0.889
+ViaMinDrill 0.508
+MicroViaSize 0.508
+MicroViaDrill 0.127
+MicroViasAllowed 0
+MicroViaMinSize 0.508
+MicroViaMinDrill 0.127
+TextPcbWidth 0.3
+TextPcbSize 1.5 1.5
+EdgeModWidth 0.15
+TextModSize 1.5 1.5
+TextModWidth 0.15
+PadSize 1.524 1.524
+PadDrill 0.762
+Pad2MaskClearance 0.2
+SolderMaskMinWidth 0
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFFBF
+PcbPlotParams (pcbplotparams (layerselection 1) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.100000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 0.254
+TrackWidth 0.254
+ViaDia 0.889
+ViaDrill 0.635
+uViaDia 0.508
+uViaDrill 0.127
+AddNet ""
+$EndNCLASS
+$PCB_TARGET
+Po 0 28 29.21 50.8 0.005 0.15 0
+$EndPCB_TARGET
+$DRAWSEGMENT
+Po 0 29.21 50.8 29.21 25.4 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 66.04 50.8 29.21 50.8 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 66.04 25.4 66.04 50.8 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 29.21 25.4 67.31 25.4 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+Po 3 45.95876 41.09974 45.95876 41.09974 1.5494 -1
+De 15 1 0 0 0
+Po 3 48.26 41.09974 48.26 41.09974 1.5494 -1
+De 15 1 0 0 0
+Po 3 50.56124 41.09974 50.56124 41.09974 1.5494 -1
+De 15 1 0 0 0
+Po 3 48.26 35.10026 48.26 35.10026 2.79908 -1
+De 15 1 0 0 0
+Po 3 33.02 38.1 33.02 38.1 1.86182 -1
+De 15 1 0 0 0
+Po 3 33.02 40.64 33.02 40.64 1.86182 -1
+De 15 1 0 0 0
+Po 3 60.96 38.1 60.96 38.1 1.86182 -1
+De 15 1 0 0 0
+Po 3 60.96 40.64 60.96 40.64 1.86182 -1
+De 15 1 0 0 0
+Po 3 39.37 37.973 39.37 37.973 1.7018 -1
+De 15 1 0 0 0
+Po 3 39.37 40.767 39.37 40.767 1.7018 -1
+De 15 1 0 0 0
+Po 3 55.88 37.973 55.88 37.973 1.7018 -1
+De 15 1 0 0 0
+Po 3 55.88 40.767 55.88 40.767 1.7018 -1
+De 15 1 0 0 0
+Po 0 55.88 40.767 54.483 40.767 1.00076 -1
+De 0 0 0 0 0
+Po 0 54.483 40.767 53.34 41.91 1.00076 -1
+De 0 0 0 0 0
+Po 0 53.34 41.91 53.34 43.18 1.00076 -1
+De 0 0 0 0 0
+Po 0 53.34 43.18 50.8 43.18 1.00076 -1
+De 0 0 0 0 0
+Po 0 50.8 43.18 50.56124 42.94124 1.00076 -1
+De 0 0 0 0 0
+Po 0 50.56124 42.94124 50.56124 41.09974 1.00076 -1
+De 0 0 0 0 0
+Po 0 60.96 40.64 56.007 40.64 1.00076 -1
+De 0 0 0 0 0
+Po 0 56.007 40.64 55.88 40.767 0.254 -1
+De 0 0 0 0 0
+Po 0 55.88 37.973 55.88 33.02 1.00076 -1
+De 0 0 0 0 0
+Po 0 39.37 31.75 39.37 37.973 1.00076 -1
+De 0 0 0 0 0
+Po 0 54.61 31.75 39.37 31.75 1.00076 -1
+De 0 0 0 0 0
+Po 0 55.88 33.02 54.61 31.75 1.00076 -1
+De 0 0 0 0 0
+Po 0 60.96 38.1 56.007 38.1 1.00076 -1
+De 0 0 0 0 0
+Po 0 56.007 38.1 55.88 37.973 0.254 -1
+De 0 0 0 0 0
+Po 0 39.37 40.767 39.37 43.18 1.00076 -1
+De 0 0 0 0 0
+Po 0 39.37 43.18 40.64 44.45 1.00076 -1
+De 0 0 0 0 0
+Po 0 40.64 44.45 46.99 44.45 1.00076 -1
+De 0 0 0 0 0
+Po 0 46.99 44.45 48.26 43.18 1.00076 -1
+De 0 0 0 0 0
+Po 0 48.26 43.18 48.26 41.09974 1.00076 -1
+De 0 0 0 0 0
+Po 0 39.37 37.973 43.053 37.973 1.00076 -1
+De 0 0 0 0 0
+Po 0 43.053 37.973 43.18 38.1 0.254 -1
+De 0 0 0 0 0
+Po 0 43.18 38.1 43.18 41.91 1.00076 -1
+De 0 0 0 0 0
+Po 0 43.18 41.91 45.72 41.91 1.00076 -1
+De 0 0 0 0 0
+Po 0 45.72 41.91 45.95876 41.09974 0.254 -1
+De 0 0 0 0 0
+Po 0 33.02 40.64 39.243 40.64 1.00076 -1
+De 0 0 0 0 0
+Po 0 39.243 40.64 39.37 40.767 1.00076 -1
+De 0 0 0 0 0
+Po 0 33.02 38.1 39.243 38.1 1.00076 -1
+De 0 0 0 0 0
+Po 0 39.243 38.1 39.37 37.973 0.254 -1
+De 0 0 0 0 0
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

@@ -1,47 +1,28 @@
 $fn=100;
 
 
-servoarminner();
+servoarmouter();
 
-module servoarminner () {
+module servoarmouter () {
 
  difference () {
 
-   linear_extrude( height=3)
+   linear_extrude( height=3.5)
    color ( "blue") 
    polygon( [ [0,0],[36,0],[36,16],[0,16] ] , [   [0,1,2,3] ]);
   
    color("red")
-   translate ([18,8,1]) 
-   linear_extrude(height=2)	
-   servoarm();
+   translate([0,0,1.1]) 
+   linear_extrude(height=2.4)	
+   polygon( [ [0,2.4],[36,3.2],[36,12.8],[0,13.6] ] , [   [0,1,2,3] ]);
+
+	color ("red")
+	translate([18,8,0])
+	linear_extrude(height=1.2)
+	circle(d=4.8);
 
   }
 
 }
-module servoarm() {
- union() {
 
-      color("red")
-	   circle(d=7.6);
-
- 	
-	  hull() 
-	  {
- 
- 	   color( "red") 
- 	   translate([1.5,0,0]) circle (d= 5.6);
- 	   translate([13,0,0]) circle (d=4);
-	  }
-
-	  hull() 
-	  { 	
- 
- 	   color("red")
- 	   translate([-1.5,0,0]) circle ( d=5.6);
- 	   translate([-13,0,0]) circle (d=4);
-	  }
-
- }
-}
 
