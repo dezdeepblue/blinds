@@ -1,4 +1,6 @@
 
+$fn=100;
+
 3dpcomp=1;
 
 thickness=6;

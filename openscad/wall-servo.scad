@@ -1,5 +1,7 @@
 
-3dprinter=0.5;
+$fn=100;
+
+3dprinter=0.4;
 
 
 thickness=6.5;
