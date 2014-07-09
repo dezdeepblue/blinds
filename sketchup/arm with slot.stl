@@ -1,0 +1,198 @@
+solid arm with slot
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 36.0 15.0 0.0
+    vertex 0.0 0.0 0.0
+    vertex 0.0 15.0 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 36.0 15.0 0.0
+    vertex 36.0 0.0 0.0
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 15.0 3.0
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 0.0 13.099999999999998 3.0
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 0.0 0.0 0.0
+    vertex 0.0 0.0 3.0
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 0.0 1.9000000000000008 0.9000000000000001
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 0.0 1.9000000000000008 0.9000000000000001
+    vertex 0.0 15.0 0.0
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 15.0 0.0
+    vertex 0.0 1.9000000000000008 0.9000000000000001
+    vertex 0.0 13.099999999999998 0.9000000000000001
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 15.0 0.0
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 0.0 15.0 3.0
+  endloop
+endfacet
+facet normal -0.0 -1.0 -0.0
+  outer loop
+    vertex 36.0 0.0 3.0
+    vertex 0.0 0.0 0.0
+    vertex 36.0 0.0 0.0
+  endloop
+endfacet
+facet normal -0.0 -1.0 -0.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 36.0 0.0 3.0
+    vertex 0.0 0.0 3.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 0.0 0.0
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 36.0 0.0 3.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 36.0 0.0 0.0
+    vertex 36.0 15.0 0.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 36.0 15.0 0.0
+    vertex 36.0 12.3 0.9000000000000001
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 12.3 0.9000000000000001
+    vertex 36.0 15.0 0.0
+    vertex 36.0 12.3 3.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 12.3 3.0
+    vertex 36.0 15.0 0.0
+    vertex 36.0 15.0 3.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 36.0 2.7000000000000006 3.0
+    vertex 36.0 0.0 3.0
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex 0.0 15.0 3.0
+    vertex 36.0 15.0 0.0
+    vertex 0.0 15.0 0.0
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex 36.0 15.0 0.0
+    vertex 0.0 15.0 3.0
+    vertex 36.0 15.0 3.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 36.0 12.3 3.0
+    vertex 0.0 15.0 3.0
+    vertex 0.0 13.099999999999998 3.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 15.0 3.0
+    vertex 36.0 12.3 3.0
+    vertex 36.0 15.0 3.0
+  endloop
+endfacet
+facet normal -0.022216737285146847 -0.9997531778316101 -0.0
+  outer loop
+    vertex 36.0 12.3 3.0
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 36.0 12.3 0.9000000000000001
+  endloop
+endfacet
+facet normal -0.022216737285146847 -0.9997531778316101 -0.0
+  outer loop
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 36.0 12.3 3.0
+    vertex 0.0 13.099999999999998 3.0
+  endloop
+endfacet
+facet normal -0.02221673728514689 0.9997531778316101 0.0
+  outer loop
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 0.0 1.9000000000000008 0.9000000000000001
+  endloop
+endfacet
+facet normal -0.02221673728514689 0.9997531778316101 0.0
+  outer loop
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 36.0 2.7000000000000006 3.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 36.0 0.0 3.0
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 0.0 0.0 3.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 1.9000000000000008 3.0
+    vertex 36.0 0.0 3.0
+    vertex 36.0 2.7000000000000006 3.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 0.0 1.9000000000000008 0.9000000000000001
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 13.099999999999998 0.9000000000000001
+    vertex 36.0 2.7000000000000006 0.9000000000000001
+    vertex 36.0 12.3 0.9000000000000001
+  endloop
+endfacet
+endsolid arm with slot
