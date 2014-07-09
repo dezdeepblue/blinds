@@ -1,13 +1,16 @@
 
+3dprinter=0.5;
+
+
 thickness=6.5;
 wallh=44;
 wallw=40;
 distfrombottom=wallh-10;
 distfromleft=wallw-16;
-servobigcircle=11.5;
-servosmallcircle=5.8;
-polygonlefth=5.8;
-polygonrighth=6;
+servobigcircle=11.5+ 3dprinter; 
+servosmallcircle=5.8+ 3dprinter;
+polygonlefth=5.8+ 3dprinter;
+polygonrighth=6+ 3dprinter;
 polygonw=6;
 
 

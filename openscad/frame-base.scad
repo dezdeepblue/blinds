@@ -1,15 +1,17 @@
 
+3dpcomp=1;
+
 thickness=6;
 gap1=25;
 gap2=21;
 
 
-slotw=40;
-slot1=3;
-slot2=6.5;
-slot3=4;
+slotw=40+3dpcomp;
+slot1=3+3dpcomp;
+slot2=6.5+3dpcomp;
+slot3=4 + 3dpcomp;
 sloth=4;
-framew=40+1+1;
+framew=slotw+1+1;
 frameh=slot1+slot2+slot3+gap1+gap2+1+1;
 
 slotframe();
