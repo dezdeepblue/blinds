@@ -6,7 +6,7 @@ distfrombottom=wallh-10;
 distfromleft=wallw-16;
 slotw=36;
 sloth=16;
-slotd=3;
+slotd=1;
 
 
 
@@ -21,7 +21,7 @@ module slotwall() {
    linear_extrude(height=thickness)
    wall();
 
-	translate([0,0,1])
+	translate([0,0,thickness-slotd])
    linear_extrude( height=slotd)
    slot();
 

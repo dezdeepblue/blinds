@@ -7,7 +7,7 @@ module servoarmouter () {
 
  difference () {
 
-   linear_extrude( height=3.5)
+   linear_extrude( height=3.4)
    color ( "blue") 
    polygon( [ [0,0],[36,0],[36,16],[0,16] ] , [   [0,1,2,3] ]);
   
@@ -19,8 +19,12 @@ module servoarmouter () {
 	color ("red")
 	translate([18,8,0])
 	linear_extrude(height=1.2)
-	circle(d=5.2);
+	circle(d=5);
 
+	color ("red")
+	translate([0,7,1.0])
+	linear_extrude(height=0.3)
+	square([18,2]);
   }
 
 }

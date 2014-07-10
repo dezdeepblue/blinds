@@ -1,7 +1,7 @@
 
 $fn=100;
 
-3dprinter=0.4;
+3dprinter=0.2;
 
 
 thickness=6.5;
@@ -15,9 +15,36 @@ polygonlefth=5.8+ 3dprinter;
 polygonrighth=6+ 3dprinter;
 polygonw=6;
 
+servo9gw=22.5;
+servomounth=4 -.2 ;
+servomountsize=6; //mount is 4mm square
+servomountax=distfromleft+servobigcircle/2 +1;
+servomountay=distfrombottom - servomountsize/2;
+servomountbx=servomountax - servo9gw -servomountsize/2 -1 ;
+servomountby=servomountay;
 
-linear_extrude(height=thickness)
-servosocketwall();
+
+union() {
+  linear_extrude(height=thickness)
+  servosocketwall();
+  servomounts();
+
+}
+
+
+module servomounts () {
+ color("blue")
+	translate([servomountax,servomountay])
+	linear_extrude(height=thickness+servomounth)
+	square(servomountsize);
+
+ color("blue")
+	translate([servomountbx,servomountby])
+   linear_extrude(height=thickness+servomounth)
+	square(servomountsize);
+
+
+}
 
 
 module servosocketwall() {

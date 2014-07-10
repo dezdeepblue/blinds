@@ -1,14 +1,14 @@
 
 $fn=100;
 
-3dpcomp=1;
+3dpcomp=0.2;
 
 thickness=6;
-gap1=25;
-gap2=21;
+gap1=30;
+gap2=24;
 
 
-slotw=40+3dpcomp;
+slotw=40+3dpcomp+.1;
 slot1=3+3dpcomp;
 slot2=6.5+3dpcomp;
 slot3=4 + 3dpcomp;
