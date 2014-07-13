@@ -1,7 +1,7 @@
 
 thickness=3;
 wallh=44;
-wallw=40;
+wallw=42;
 
 
 

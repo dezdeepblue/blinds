@@ -1,7 +1,9 @@
 $fn=100;
 
-thickness=3;
+thickness=2;
 hornthickness=1.5;
+w=36;
+h=16;
 
 servoarminner();
 //servoarm();
@@ -11,7 +13,7 @@ module servoarminner () {
 
    linear_extrude( height=thickness)
    color ( "blue") 
-   polygon( [ [0,0],[36,0],[36,16],[0,16] ] , [   [0,1,2,3] ]);
+   polygon( [ [0,0],[w,0],[w,h],[0,h] ] , [   [0,1,2,3] ]);
   
    color("red")
    translate ([18,8,thickness-hornthickness]) 
@@ -19,7 +21,7 @@ module servoarminner () {
    servoarm();
 
 	color ("red")
-	translate([18,8,0])
+	translate([w/2,h/2,0])
 	linear_extrude(height=thickness-hornthickness)
 	circle(d=4.8);
 

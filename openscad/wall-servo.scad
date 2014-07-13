@@ -4,23 +4,23 @@ $fn=100;
 3dprinter=0.2;
 
 
-thickness=6.5;
+thickness=6.4;
 wallh=44;
-wallw=40;
+wallw=42;
 distfrombottom=wallh-10;
-distfromleft=wallw-16;
+distfromleft=wallw-18;
 servobigcircle=11.5+ 3dprinter; 
 servosmallcircle=5.8+ 3dprinter;
 polygonlefth=5.8+ 3dprinter;
 polygonrighth=6+ 3dprinter;
 polygonw=6;
 
-servo9gw=22.5;
-servomounth=4 -.2 ;
+servo9gw=22.8;
+servomounth=4 -.1 ;
 servomountsize=6; //mount is 4mm square
 servomountax=distfromleft+servobigcircle/2 +1;
 servomountay=distfrombottom - servomountsize/2;
-servomountbx=servomountax - servo9gw -servomountsize/2 -1 ;
+servomountbx=servomountax - servo9gw -servomountsize -1 ;
 servomountby=servomountay;
 
 

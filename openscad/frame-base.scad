@@ -1,14 +1,15 @@
 
 $fn=100;
 
+wallwidth=40;
 3dpcomp=0.2;
 
 thickness=6;
 gap1=30;
-gap2=24;
+gap2=26 + 2; //v.2 made this gap 26 +2 for buffer
 
 
-slotw=40+3dpcomp+.1;
+slotw=wallwidth+3dpcomp+.1;
 slot1=3+3dpcomp;
 slot2=6.5+3dpcomp;
 slot3=4 + 3dpcomp;
