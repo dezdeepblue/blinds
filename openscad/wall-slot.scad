@@ -1,3 +1,4 @@
+$fn=100;
 
 thickness=4;
 wallh=44;
@@ -8,7 +9,7 @@ slotw=32;
 sloth=16+ 0.02;
 slotd=2;
 
-
+cornerrad=2;
 
 slotwall();
 
@@ -35,8 +36,12 @@ module slotwall() {
 
 module wall() {
 
+ minkowski(){
+
+polygon( [ [cornerrad,cornerrad],[wallw-cornerrad,cornerrad],[wallw-cornerrad,wallh-cornerrad],[cornerrad,wallh-cornerrad] ] , [   [0,1,2,3] ]);
  
-polygon( [ [0,0],[wallw,0],[wallw,wallh],[0,wallh] ] , [   [0,1,2,3] ]);
+	circle(r=cornerrad);
+}
 
 }
 

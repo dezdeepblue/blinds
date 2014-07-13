@@ -3,6 +3,7 @@ $fn=100;
 
 3dprinter=0.2;
 
+cornerrad=2;
 
 thickness=6.4;
 wallh=44;
@@ -62,8 +63,10 @@ module servosocketwall() {
 
 module servowall() {
 
-polygon( [ [0,0],[wallw,0],[wallw,wallh],[0,wallh] ] , [   [0,1,2,3] ]);
-
+ minkowski() {
+  polygon( [ [cornerrad,cornerrad],[wallw-cornerrad,cornerrad],[wallw-cornerrad,wallh-cornerrad],[cornerrad,wallh-cornerrad] ] , [   [0,1,2,3] ]);
+  circle(r=cornerrad);
+ }
 }
 
 module servosocket() {

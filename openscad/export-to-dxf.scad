@@ -1,1 +1,0 @@
-projection( cut=true) import("arm-slot-v2.stl");

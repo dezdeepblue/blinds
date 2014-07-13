@@ -1,21 +1,25 @@
 
 $fn=100;
 
-wallwidth=40;
-3dpcomp=0.2;
+cornerrad=2;
+
+baseextra=2;
+
+wallwidth=42;
+3dpcomp=0.12;
 
 thickness=6;
 gap1=30;
 gap2=26 + 2; //v.2 made this gap 26 +2 for buffer
 
 
-slotw=wallwidth+3dpcomp+.1;
+slotw=wallwidth+3dpcomp+.08;
 slot1=3+3dpcomp;
 slot2=6.5+3dpcomp;
 slot3=4 + 3dpcomp;
 sloth=4;
-framew=slotw+1+1;
-frameh=slot1+slot2+slot3+gap1+gap2+1+1;
+framew=slotw+baseextra;
+frameh=slot1+slot2+slot3+gap1+gap2+baseextra;
 
 slotframe();
 
@@ -44,9 +48,10 @@ module slotframe() {
 
 module base() {
 
- 
-polygon( [ [0,0],[framew,0],[framew,frameh],[0,frameh] ] , [   [0,1,2,3] ]);
-
+  minkowski() {
+  polygon( [ [cornerrad,cornerrad],[framew-cornerrad,cornerrad],[framew-cornerrad,frameh-cornerrad],[cornerrad,frameh-cornerrad] ] , [   [0,1,2,3] ]);
+	circle(r=cornerrad);
+  }
 }
 
 module slot1() {
