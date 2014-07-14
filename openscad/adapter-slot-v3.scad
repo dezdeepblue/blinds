@@ -1,7 +1,7 @@
 $fn=100;
 
 w=32;
-h=16;
+h=16 - .2 ; //subtract .2 for sliding in
 thickness=6.0;
 slotdepth=2.0;
 fanhb=11.0;

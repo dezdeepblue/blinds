@@ -14,7 +14,7 @@ gap2=26 + 2; //v.2 made this gap 26 +2 for buffer
 
 
 slotw=wallwidth+3dpcomp+.08;
-slot1=3+3dpcomp;
+slot1=8+3dpcomp;
 slot2=6.5+3dpcomp;
 slot3=4 + 3dpcomp;
 sloth=4;
