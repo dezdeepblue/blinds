@@ -1,9 +1,11 @@
 $fn=100;
 
+
+include <blinds-refs.scad>;
+
 thickness=2;
 hornthickness=1.5;
-w=36;
-h=20;
+
 
 servoarminner();
 //servoarm();
@@ -13,15 +15,15 @@ module servoarminner () {
 
    linear_extrude( height=thickness)
    color ( "blue") 
-   polygon( [ [0,0],[w,0],[w,h],[0,h] ] , [   [0,1,2,3] ]);
+   polygon( [ [0,0],[armw,0],[armw,armh],[0,armh] ] , [   [0,1,2,3] ]);
   
    color("red")
-   translate ([w/2,h/2,thickness-hornthickness]) 
+   translate ([armw/2,armh/2,thickness-hornthickness]) 
    linear_extrude(height=hornthickness)	
    servoarm();
 
 	color ("red")
-	translate([w/2,h/2,0])
+	translate([armw/2,armh/2,0])
 	linear_extrude(height=thickness-hornthickness+.1)
 	circle(d=4.8);
 

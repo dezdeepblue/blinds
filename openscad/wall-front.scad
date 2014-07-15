@@ -1,12 +1,10 @@
 
-thickness=3;
-wallh=44;
-wallw=42;
+$fn=100;
 
-cornerrad=2;
+include <blinds-refs.scad>;
 
 
-linear_extrude(height=thickness)
+linear_extrude(height=wall1_thick)
 wall();
 
 

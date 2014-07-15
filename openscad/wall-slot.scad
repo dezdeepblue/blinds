@@ -1,15 +1,12 @@
 $fn=100;
 
-thickness=4;
-wallh=44;
-wallw=42;
-distfrombottom=wallh-10;
-distfromleft=wallw-18;
-slotw=32;
-sloth=16+ 0.02;
-slotd=2;
+include <blinds-refs.scad>;
 
-cornerrad=2;
+
+
+
+
+
 
 slotwall();
 
@@ -19,15 +16,15 @@ module slotwall() {
 
  difference() {
   
-   linear_extrude(height=thickness)
+   linear_extrude(height=wall3_thick)
    wall();
 
-	translate([0,0,thickness-slotd])
-   linear_extrude( height=slotd)
+	translate([0,0,wall3_thick-wall3slotd])
+   linear_extrude( height=wall3slotd)
    slot();
 
-	translate([0,0,thickness-slotd])
-   linear_extrude( height=slotd)
+	translate([0,0,wall3_thick-wall3slotd])
+   linear_extrude( height=wall3slotd)
    wideslot();
 	
  }
@@ -47,12 +44,12 @@ polygon( [ [cornerrad,cornerrad],[wallw-cornerrad,cornerrad],[wallw-cornerrad,wa
 
 module slot() {
    color ( "blue") 
-	translate([(wallw-slotw)/2 ,distfrombottom - sloth/2,0  ])
-   polygon( [ [0,0],[slotw,0],[slotw,sloth],[0,sloth] ] , [   [0,1,2,3] ]);
+	translate([(wallw-wall3slotw)/2 ,distfrombottom - wall3sloth/2,0  ])
+   polygon( [ [0,0],[wall3slotw,0],[wall3slotw,wall3sloth],[0,wall3sloth] ] , [   [0,1,2,3] ]);
 }
 
 module wideslot() {
    color ( "blue") 
-	translate([0 ,distfrombottom - sloth/2,0  ])
-   polygon( [ [0,0],[slotw,0],[slotw,sloth],[0,sloth] ] , [   [0,1,2,3] ]);
+	translate([0 ,distfrombottom - wall3sloth/2,0  ])
+   polygon( [ [0,0],[wall3slotw,0],[wall3slotw,wall3sloth],[0,wall3sloth] ] , [   [0,1,2,3] ]);
 }

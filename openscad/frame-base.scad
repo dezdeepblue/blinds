@@ -1,25 +1,17 @@
 
 $fn=100;
-
-cornerrad=2;
-
-baseextra=2;
-
-wallwidth=42;
-3dpcomp=0.12;
-
-thickness=6;
-gap1=30;
-gap2=26 + 2; //v.2 made this gap 26 +2 for buffer
+include <blinds-refs.scad>;
 
 
-slotw=wallwidth+3dpcomp+.08;
-slot1=8+3dpcomp;
-slot2=6.5+3dpcomp;
-slot3=4 + 3dpcomp;
-sloth=4;
-framew=slotw+baseextra;
-frameh=slot1+slot2+slot3+gap1+gap2+baseextra;
+
+
+
+
+
+
+
+
+
 
 slotframe();
 
@@ -29,16 +21,16 @@ module slotframe() {
 
  difference() {
   
-   linear_extrude(height=thickness)
+   linear_extrude(height=base_thick)
    base();
 
-	translate([0,0,thickness-sloth])
+	translate([0,0,base_thick-sloth])
    linear_extrude( height=sloth)
    slot1();
-	translate([0,0,thickness-sloth])
+	translate([0,0,base_thick-sloth])
    linear_extrude( height=sloth)
    slot2();
-	translate([0,0,thickness-sloth])
+	translate([0,0,base_thick-sloth])
    linear_extrude( height=sloth)
    slot3();
 
