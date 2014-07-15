@@ -4,8 +4,7 @@ include <blinds-refs.scad>;
 
 thickness=3.0;
 slotdepth=2.0;
-fanhb=11.0;
-fanhs=9.6;
+
 
 x1=0;    	y1=(adapterh-fanhb)/2;
 
