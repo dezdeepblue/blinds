@@ -25,7 +25,7 @@ module servoarminner () {
 	color ("red")
 	translate([armw/2,armh/2,0])
 	linear_extrude(height=thickness-hornthickness+.1)
-	circle(d=4.8);
+	circle(d=3.8);
 
   }
 

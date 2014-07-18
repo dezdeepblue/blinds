@@ -29,7 +29,7 @@ module servoarmouter () {
 	color ("red")
 	translate([armw/2,armh/2,0])
 	linear_extrude(height=1.2)
-	circle(d=5.2);
+	circle(d=3.8);
 
   }
 

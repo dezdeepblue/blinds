@@ -44,7 +44,7 @@ servomountby=servomountay;
 //wall3
 wall3_thick=4;
 wall3slotw=adapterw;
-wall3sloth=adapterh+ 0.02;
+wall3sloth=adapterh+ 2+2;
 wall3slotd=2;
 
 //base-frame

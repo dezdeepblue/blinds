@@ -24,7 +24,7 @@ module slotwall() {
    slot();
 
 	translate([0,0,wall3_thick-wall3slotd])
-   linear_extrude( height=wall3slotd)
+  linear_extrude( height=wall3slotd)
    wideslot();
 	
  }
@@ -33,6 +33,7 @@ module slotwall() {
 
 module wall() {
 
+wallh=wallh+2; // wall3 height is more to fit the slot
  minkowski(){
 
 polygon( [ [cornerrad,cornerrad],[wallw-cornerrad,cornerrad],[wallw-cornerrad,wallh-cornerrad],[cornerrad,wallh-cornerrad] ] , [   [0,1,2,3] ]);
