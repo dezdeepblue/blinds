@@ -6,8 +6,8 @@ include <blinds-refs.scad>;
 thickness=3;
 hornthickness=1.5;
 
-servoarmfinal() ;
-
+//servoarmfinal() ;
+servoarm();
 module servoarmfinal() {
    
   union ( ){ 
@@ -57,7 +57,7 @@ module servoarminner () {
   }
 
 }
-module servoarm() {
+ module servoarm() {
  union() {
 
       color("red")
