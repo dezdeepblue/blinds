@@ -1,13 +1,36 @@
-$fn=100;
+$fn=120;
 
 
 include <blinds-refs.scad>;
 
-thickness=2;
+thickness=3;
 hornthickness=1.5;
 
+servoarmfinal() ;
 
-servoarminner();
+module servoarmfinal() {
+   
+  union ( ){ 
+   servoarminner();
+
+
+     difference () {
+      color ("red")
+	   translate([armw/2,armh/2,1])
+	   linear_extrude(height=1.2)
+	   circle(d=3); 
+	   color ("yellow")
+	   translate([armw/2,armh/2,0])
+	   linear_extrude(height=3)
+	   circle(d=2);   
+        
+
+      }
+
+   }
+}
+
+
 //servoarm();
 module servoarminner () {
 
@@ -24,8 +47,12 @@ module servoarminner () {
 
 	color ("red")
 	translate([armw/2,armh/2,0])
-	linear_extrude(height=thickness-hornthickness+.1)
-	circle(d=3.8);
+	linear_extrude(height=1)
+	circle(d=3);
+ 	color ("red")
+	translate([armw/2,armh/2,1])
+	linear_extrude(height=.5)
+	circle(d=3);
 
   }
 
