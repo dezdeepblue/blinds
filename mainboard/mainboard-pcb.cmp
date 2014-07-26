@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by Cvpcb (2014-06-16 BZR 4947)-product   date = Fri 25 Jul 2014 12:59:40 PM EDT
+
+BeginCmp
+TimeStamp = /53D274C9;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D274FE;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27563;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27765;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2739B;
+Reference = IC1;
+ValeurCmp = ATTINY2313-S;
+IdModule  = D P:dp_devices-SOIC-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D275E9;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27D1A;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2758E;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2A7D4;
+Reference = P3;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D279B5;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SMD_Packages:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27798;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2A0CC;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D278BD;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27944;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2785A;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27697;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Discret:SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2771C;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = Discret:SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D27400;
+Reference = U1;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = SMD_Packages:SOT223;
+EndCmp
+
+EndListe
