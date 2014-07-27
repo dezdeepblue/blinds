@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-16 BZR 4947)-product   date = Fri 25 Jul 2014 12:59:40 PM EDT
+Cmp-Mod V01 Created by Cvpcb (2014-07-24 BZR 5026)-product   date = 7/26/2014 2:04:24 PM
 
 BeginCmp
 TimeStamp = /53D274C9;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /53D2739B;
 Reference = IC1;
 ValeurCmp = ATTINY2313-S;
-IdModule  = D P:dp_devices-SOIC-20;
+IdModule  = Adafruit:SO20W;
 EndCmp
 
 BeginCmp
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /53D279B5;
 Reference = Q1;
 ValeurCmp = MOSFET_N;
-IdModule  = SMD_Packages:SOT23;
+IdModule  = SMD_Packages:SOT23GDS;
 EndCmp
 
 BeginCmp
@@ -109,14 +109,14 @@ BeginCmp
 TimeStamp = /53D27697;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = Discret:SW_PUSH;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D2771C;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = Discret:SW_PUSH;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp

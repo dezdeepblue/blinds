@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Adafruit)(type Eagle)(uri c:\Users\pc\Documents\Kicad-libs\adafruit.lbr)(options "")(descr ""))
+  (lib (name "Dangerous Prototypes")(type Eagle)(uri c:\Users\pc\Documents\Kicad-libs\dp_devices.lbr)(options "")(descr ""))
+)
